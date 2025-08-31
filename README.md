@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Recent important commands while practiving GITHUB
 
   220  git status
@@ -51,3 +52,5 @@ Recent important commands while practiving GITHUB
   268  git log
   269  git show
   270  history 100 > recent-commands.txt
+=======
+>>>>>>> parent of b371805 (added and modified few files along with updated few commands to the README.md file)
