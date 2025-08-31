@@ -1,5 +1,3 @@
-Recent important commands while practiving GITHUB
-
   171  minikube service java-flash-app-service --url
   172  kubectl port-forward svc/java-flash-app-service 8080:80
   173  kubectl get srv
