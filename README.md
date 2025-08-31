@@ -1,54 +1,5 @@
 Recent important commands while practiving GITHUB
 
-  171  minikube service java-flash-app-service --url
-  172  kubectl port-forward svc/java-flash-app-service 8080:80
-  173  kubectl get srv
-  174  kubectl get svc
-  175  minikube service java-flash-app --url
-  176  kubectl delete svc java-flash-app-service
-  177  kubectl get svc
-  178  clear
-  179  kubectl get deployment java-flash-app
-  180  kubectl autoscale deployment java-flash-app --cpu-percent=50 --min=2 --max=10
-  181  kubectl get hpa
-  182  kubectl run -i --tty load-generator --image=busybox -- /bin/sh
-  183  kubectl run -i --tty load-generator --image=busybox -- /bin/sh
-  184  kubectl get pod
-  185  kubectl get deployment -n kube-system | grep metrics-server
-  186  kubectl apply -f https://github.com/kubernetes-sigs/metrics-server/releases/latest/download/components.yaml
-  187  kubectl delete hpa java-flash-app
-  188  kubectl autoscale deployment java-flash-app --cpu-percent=50 --min=2 --max=10
-  189  kubectl get hpa
-  190  kubectl logs load-generator
-  191  kubectl run -i --tty load-generator --image=busybox -- /bin/sh
-  192  kubectl get pods
-  193  kubectl logs java-flash-app-8979498d9-qjm5r 
-  194  kubectl logs load-generator
-  195  kubectl delete pod load-generator
-  196  kubectl logs load-generator
-  197  kubectl get pods
-  198  kubectl get pods
-  199  kubectl run -i --tty load-generator --image=busybox -- /bin/sh
-  200  kubectl get pods
-  201  kubectl delete pod load-generator
-  202  kubectl get pods
-  203  helm list
-  204  cd java-flash-chart/
-  205  ls
-  206  helm list
-  207  helm upgrade java-flash-release .
-  208  kubectl get pods
-  209  kubectl get svc
-  210  helm upgrade java-flash-release .
-  211  kubectl get svc
-  212  kubectl get pods
-  213  kubectl get svc
-  214  minikube tunnel
-  215  kubectl get svc
-  216  minikube ip
-  217  kubectl port-forward svc/java-flash-app 8080:5003
-  218  exit
-  219  docker run -d --name minio   -p 9000:9000 -p 9001:9001   -e "MINIO_ROOT_USER=admin"   -e "MINIO_ROOT_PASSWORD=admin123"   quay.io/minio/minio server /data --console-address ":9001"
   220  git status
   221  git status
   222  clear
